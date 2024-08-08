@@ -1,0 +1,40 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    border-color: 2px solid black;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(78, 18, 137, 0.1);
+    flex-direction: column;
+    
+    
+}
+button{
+    border-radius: 5px;
+}
+button:hover{
+    background: linear-gradient(45deg,rgb(145, 166, 232),rgb(206, 219, 123));
+}
+#city{
+    margin-top: 20px;
+}
+#temp{
+    font-size: 25px;
+}
+#type{
+    font-size: 30px;
+    margin-top: -30px;
+}
+h1{
+    color: rgb(115, 20, 3);
+    text-decoration: underline
+}
